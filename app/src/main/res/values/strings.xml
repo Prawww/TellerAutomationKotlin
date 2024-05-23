@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Equity</string>
+    <string name="Ok">Generate QR Code</string>
+    <string name="withdraw">Withdraw\n</string>
+    <string name="welcome">Welcome</string>
+    <string name="accdes">Account</string>
+    <string name="baldes">Balance</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="withdrawAmt">Amount</string>
+    <string name="download">Download QR Code</string>
+    <string name="downloadQr">Download QR Code</string>
+    <string name="navigate_back">Navigate back</string>
+    <string name="english">English</string>
+    <string name="Kiswahili">Kiswahili</string>
+    <string name="french">French</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_cash_deposit_screen.kt">CashDepositScreen.kt</string>
+    <string name="proceed">Proceed</string>
+    <string name="go_back">Go Back</string>
+    <string name="logo_description" />
+    <string name="your_text_resource" />
+    <string name="completed">Completed</string>
+    <string name="confirm">Confirm</string>
+    <string name="withdrawal">Withdrawal</string>
+    <string name="language">Language:</string>
+    <string name="ref_no">Ref No:</string>
+    <string name="cancel">Cancel</string>
+    <string name="any_other_transaction">Any other transaction?</string>
+    <string name="amount">Amount</string>
+    <string name="account_number">Account Number</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="id">ID</string>
+    <string name="_5">5</string>
+    <string name="name">Name</string>
+    <string name="_12_4_2024">12/4/2024</string>
+    <string name="q" />
+    <string name="welcome_to_equity_bank">Welcome to Equity Bank</string>
+    <string name="internal_transfer">Internal Transfer</string>
+    <string name="select_the_service">Select the service</string>
+    <string name="local_date">Local Date</string>
+    <string name="full_name">Full Name</string>
+    <string name="bankers_cheque">Bankers Cheque</string>
+    <string name="cash_deposit">Cash Deposit</string>
+    <string name="mobile_banking">Mobile Banking</string>
+    <string name="swift">Swift</string>
+    <string name="email">Email</string>
+    <string name="national_id">National ID</string>
+    <string name="western_union">Western Union</string>
+    <string name="transfast">Transfast</string>
+    <string name="cash_withdrawal">Cash withdrawal</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Continue">Continue</string>
+    <string name="finalAmt">8000</string>
+    <string name="beneficiary">Beneficiary Details</string>
+    <string name="benName">Beneficiary Name</string>
+    <string name="confirmDetails">Confirm Details</string>
+    <!-- In your strings.xml file -->
+    <string-array name="language_options">
+        <item>English</item>
+        <item>French</item>
+        <item>Kiswahili</item>
+        <item>Spanish</item>
+    </string-array>
+    <string-array name="currency">
+        <item>KSH</item>
+        <item>USD</item>
+        <item>EUR</item>
+        <!-- Add more currencies as needed -->
+    </string-array>
+
+
+</resources>

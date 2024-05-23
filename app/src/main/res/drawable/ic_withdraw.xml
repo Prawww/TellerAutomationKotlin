@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- State when the button is pressed -->
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#FF4081"/>
+                </shape>
+            </item>
+            <item>
+                <bitmap
+                    android:src="@drawable/ic_withdraw"
+                    android:gravity="start|center_vertical" tools:ignore="ResourceCycle" />
+            </item>
+        </layer-list>
+    </item>
+    <!-- State when the button is focused -->
+    <item android:state_focused="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#FF4081"/>
+                </shape>
+            </item>
+            <item>
+                <bitmap
+                    android:src="@drawable/ic_withdraw"
+                    android:gravity="start|center_vertical" tools:ignore="ResourceCycle" />
+            </item>
+        </layer-list>
+    </item>
+    <!-- Default state -->
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#FF4081"/>
+                </shape>
+            </item>
+            <item>
+                <bitmap
+                    android:src="@drawable/ic_withdraw"
+                    android:gravity="start|center_vertical" tools:ignore="ResourceCycle" />
+            </item>
+        </layer-list>
+    </item>
+</selector>
