@@ -1,4 +1,4 @@
-package com.example.diceroller
+package com.example.diceroller.internalTransfer
 
 import android.os.Bundle
 import android.view.View
@@ -6,6 +6,7 @@ import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.Spinner
 import androidx.fragment.app.Fragment
+import com.example.diceroller.R
 
 class InternalFragment : Fragment(R.layout.fragment_internal) {
     override fun onViewCreated(view: View, savedInstance: Bundle?){

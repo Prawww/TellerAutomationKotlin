@@ -1,4 +1,4 @@
-package com.example.diceroller
+package com.example.diceroller.RTGS
 
 import android.os.Bundle
 import android.util.Log
@@ -8,6 +8,7 @@ import android.widget.Button
 import android.widget.Spinner
 import android.widget.TextView
 import androidx.fragment.app.Fragment
+import com.example.diceroller.R
 import com.example.diceroller.network.RetrofitClient
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope

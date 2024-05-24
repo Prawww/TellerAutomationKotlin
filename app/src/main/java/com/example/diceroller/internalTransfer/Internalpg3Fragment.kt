@@ -1,22 +1,14 @@
-package com.example.diceroller
+package com.example.diceroller.internalTransfer
 
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import com.example.diceroller.HomeFragment
+import com.example.diceroller.R
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
-/**
- * A simple [Fragment] subclass.
- * Use the [Swiftpg3Fragment.newInstance] factory method to
- * create an instance of this fragment.
- */
-class Swiftpg3Fragment : Fragment(R.layout.fragment_swiftpg3) {
+class Internalpg3Fragment : Fragment(R.layout.fragment_internalpg3){
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
@@ -25,7 +17,7 @@ class Swiftpg3Fragment : Fragment(R.layout.fragment_swiftpg3) {
 
 
         btnOk.setOnClickListener(){
-            Toast.makeText(requireContext(), "Swift transaction successful", Toast.LENGTH_SHORT).show()
+            Toast.makeText(requireContext(), "RTGS transaction successful", Toast.LENGTH_SHORT).show()
 
             val secondFragment = HomeFragment()
 
@@ -46,8 +38,6 @@ class Swiftpg3Fragment : Fragment(R.layout.fragment_swiftpg3) {
 
 
         }
-
-
     }
 
 }

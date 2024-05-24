@@ -1,10 +1,10 @@
 
-import com.example.diceroller.Customer
-import com.example.diceroller.Deposit
-import com.example.diceroller.Entity
-import com.example.diceroller.EntityResponse
-import com.example.diceroller.Transaction
-import com.example.diceroller.Withdraw
+import com.example.diceroller.dataClasses.Tran
+import com.example.diceroller.dataClasses.Transaction
+import com.example.diceroller.dataClasses.Withdraw
+import com.example.diceroller.dataClasses.Customer
+import com.example.diceroller.dataClasses.Deposit
+import com.example.diceroller.dataClasses.EntityResponse
 import retrofit2.Call
 import retrofit2.http.Body
 import retrofit2.http.GET
@@ -13,7 +13,7 @@ import retrofit2.http.Query
 
 interface ApiService {
     @GET("tran/getTran")
-    fun getUsers(@Query("id") id: Long): Call<EntityResponse<Entity>>
+    fun getUsers(@Query("id") id: Long): Call<EntityResponse<Tran>>
 
     @GET("Customer/get")
     fun getCustomer(@Query("id") id: Long): Call<EntityResponse<Customer>>

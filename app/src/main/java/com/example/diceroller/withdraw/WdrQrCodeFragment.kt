@@ -1,4 +1,4 @@
-package com.example.diceroller
+package com.example.diceroller.withdraw
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -8,6 +8,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.ImageView
 import androidx.fragment.app.Fragment
+import com.example.diceroller.R
 import java.io.File
 import java.io.FileOutputStream
 import java.io.OutputStream

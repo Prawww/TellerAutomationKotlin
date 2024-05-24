@@ -8,7 +8,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".SwiftFragment"
+        tools:context=".swift.SwiftFragment"
         android:orientation="vertical">
 
         <!-- TODO: Update blank fragment layout -->
@@ -61,7 +61,7 @@
 
 
         <TextView
-            android:id="@+id/txtBalance"
+            android:id="@+id/balance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="18sp"

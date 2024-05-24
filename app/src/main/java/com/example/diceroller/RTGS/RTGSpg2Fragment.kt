@@ -1,18 +1,18 @@
-package com.example.diceroller
+package com.example.diceroller.RTGS
 
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import androidx.fragment.app.Fragment
+import com.example.diceroller.R
 
-class Internalpg2Fragment : Fragment(R.layout.fragment_internalpg2) {
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-
+class RTGSpg2Fragment : Fragment(R.layout.fragment_r_t_g_spg2) {
+    override fun onViewCreated(view: View, savedInstance: Bundle?){
+        super.onViewCreated(view, savedInstance)
         val btn = view.findViewById<Button>(R.id.btn)
 
         btn.setOnClickListener(){
-            val secondFragment = Internalpg3Fragment()
+            val secondFragment = RTGSpg3Fragment()
 
             requireActivity().supportFragmentManager.beginTransaction()
                 .replace(R.id.flFragment, secondFragment)
@@ -20,5 +20,4 @@ class Internalpg2Fragment : Fragment(R.layout.fragment_internalpg2) {
                 .commit()
         }
     }
-
 }

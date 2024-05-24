@@ -7,7 +7,14 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.annotation.RequiresApi
 import androidx.fragment.app.Fragment
+import com.example.diceroller.RTGS.RTGSFragment
+import com.example.diceroller.dataClasses.Customer
+import com.example.diceroller.dataClasses.EntityResponse
+import com.example.diceroller.deposit.DepositFragment
+import com.example.diceroller.internalTransfer.InternalFragment
 import com.example.diceroller.network.RetrofitClient
+import com.example.diceroller.swift.SwiftFragment
+import com.example.diceroller.withdraw.WithdrawFragment
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

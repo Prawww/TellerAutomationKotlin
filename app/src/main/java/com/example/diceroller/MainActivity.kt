@@ -3,6 +3,8 @@ package com.example.diceroller
 import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.diceroller.dataClasses.Customer
+import com.example.diceroller.dataClasses.EntityResponse
 import com.example.diceroller.network.RetrofitClient
 import retrofit2.Call
 import retrofit2.Callback

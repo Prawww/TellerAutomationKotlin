@@ -1,10 +1,11 @@
-package com.example.diceroller
+package com.example.diceroller.deposit
 
 import android.graphics.Bitmap
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
 import androidx.fragment.app.Fragment
+import com.example.diceroller.R
 
 @Suppress("DEPRECATION")
 class DepQrCodeFragment : Fragment(R.layout.fragment_dep_qr_code) {
